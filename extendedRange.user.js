@@ -1,7 +1,7 @@
 // ==UserScript==
 // @id            extended-range@edocsil47
 // @name          IITC: Pokemon GO Extended Range
-// @category      Layer
+// @category      Draw
 // @namespace     https://github.com/edocsil47/IITCPogoExtendedRange
 // @downloadURL   https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
 // @homepageURL   https://github.com/edocsil47/IITCPogoExtendedRange
