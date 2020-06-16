@@ -1,16 +1,17 @@
 // ==UserScript==
 // @id            extended-range@edocsil47
 // @name          IITC: Pokemon GO Extended Range
-// @category      Draw
+// @category      Layer
 // @namespace     https://github.com/edocsil47/IITCPogoExtendedRange
 // @downloadURL   https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
 // @homepageURL   https://github.com/edocsil47/IITCPogoExtendedRange
 // @supportURL     https://github.com/edocsil47/IITCPogoExtendedRange
-// @version       0.1
+// @version       0.1.1
 // @description   Adds circle for Pokemon GO spin range
 // @author        edocsil47
 // @match         https://intel.ingress.com/*
 // @grant         none
+// @run-at        document-end
 // ==/UserScript==
 
 // script based on IITC-CE script by jonatkins
@@ -62,12 +63,10 @@
                                             ).addTo(map);
             // added line below
             pokestopAccessIndicator = L.circle(coord, SPIN_RANGE,
-                                             { fill: false, color: SPIN_INDICATOR_COLOR, weight: 2, interactive: false }
-                                            ).addTo(map);
+                                               { fill: false, color: SPIN_INDICATOR_COLOR, weight: 2, interactive: false }
+                                              ).addTo(map);
         }
-
     }
-
 })();
 
 
