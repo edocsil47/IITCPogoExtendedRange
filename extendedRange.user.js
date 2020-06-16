@@ -4,9 +4,10 @@
 // @category      Layer
 // @namespace     https://github.com/edocsil47/IITCPogoExtendedRange
 // @downloadURL   https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
+// @updateURL     https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
 // @homepageURL   https://github.com/edocsil47/IITCPogoExtendedRange
 // @supportURL     https://github.com/edocsil47/IITCPogoExtendedRange
-// @version       0.0.1
+// @version       0.0.2
 // @description   Adds circle for Pokemon GO spin range
 // @author        edocsil47
 // @match         https://intel.ingress.com/*
