@@ -4,10 +4,10 @@
 // @version        0.0.-1
 // @description    Adds circle for Pokemon GO spin range
 // @run-at         document-end
-// @id             total-conversion-build
-// @namespace      https://github.com/IITC-CE/ingress-intel-total-conversion
-// @updateURL      https://iitc.modos189.ru/build/release/total-conversion-build.meta.js
-// @downloadURL    https://iitc.modos189.ru/build/release/total-conversion-build.user.js
+// @id             total-conversion-build-pogo-extended
+// @namespace      https://github.com/edocsil47/IITCPogoExtendedRange
+// @updateURL      https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
+// @downloadURL    https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
 // @match          https://intel.ingress.com/*
 // @grant          none
 // ==/UserScript==
@@ -20,7 +20,7 @@
     'use strict';
     window.SPIN_RANGE = 80; // 80m interaction range for Pokemon GO
     window.pokestopAccessIndicator = null;
-    window.SPIN_INDICATOR_COLOR = 'dodgerblue'; // color for spin range circle. More options here: https://www.w3schools.com/tags/ref_colornames.asp
+    window.SPIN_INDICATOR_COLOR = 'yellow'; // color for spin range circle. More options here: https://www.w3schools.com/tags/ref_colornames.asp
 
     // draws link-range and hack/spin-range circles around the portal with the
     // given details. Clear them if parameter 'd' is null.
