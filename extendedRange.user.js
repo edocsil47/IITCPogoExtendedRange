@@ -1,23 +1,23 @@
 // ==UserScript==
-// @author         edocsil47
-// @name           IITC: Pokemon GO Extended Range
-// @category       Layer
-// @version        0.0.-1
-// @description    Adds circle for Pokemon GO spin range
-// @run-at         document-end
-// @id             total-conversion-build-pogo-extended
-// @namespace      https://github.com/edocsil47/IITCPogoExtendedRange
-// @updateURL      https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
-// @downloadURL    https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
-// @match          https://intel.ingress.com/*
-// @grant          none
+// @id            extended-range@edocsil47
+// @name          IITC: Pokemon GO Extended Range
+// @category      Layer
+// @namespace     https://github.com/edocsil47/IITCPogoExtendedRange
+// @downloadURL   https://github.com/edocsil47/IITCPogoExtendedRange/raw/master/extendedRange.user.js
+// @homepageURL   https://github.com/edocsil47/IITCPogoExtendedRange
+// @supperURL     https://github.com/edocsil47/IITCPogoExtendedRange
+// @version       0.0.1
+// @description   Adds circle for Pokemon GO spin range
+// @author        edocsil47
+// @match         https://intel.ingress.com/*
+// @grant         none
 // ==/UserScript==
 
 // script based on IITC-CE script by jonatkins
 
 
 
-(function() {
+;(function() {
     'use strict';
     window.SPIN_RANGE = 80; // 80m interaction range for Pokemon GO
     window.pokestopAccessIndicator = null;
