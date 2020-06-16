@@ -1,6 +1,7 @@
 // ==UserScript==
 // @author         edocsil47
 // @name           IITC: Pokemon GO Extended Range
+// @category       Layer
 // @version        0.0.-1
 // @description    Adds circle for Pokemon GO spin range
 // @run-at         document-end
